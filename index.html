@@ -1,6 +1,11 @@
-<script src="https://gist.github.com/babanbilal51/d328dd314883a2b8ef1c37d965893dc3.js"></script>
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-3ac1d508-e802-44c2-aee3-0332b3b84369"></div>
+<script>
+    window.onbeforeunload = function () {
+        document.querySelector('.elfsight-app-3ac1d508-e802-44c2-aee3-0332b3b84369').style.display = 'block';
+        return "Are you sure you want to leave this page?";
+    }
+</script>
 <!DOCTYPE html>
 <html lang="en">
   <head>
